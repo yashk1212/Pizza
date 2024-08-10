@@ -326,3 +326,32 @@ header ul li a {
     border: none;
     cursor: pointer;
 }
+
+/* Add this to your styles.css */
+.checkout-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.checkout-btn:active {
+    background-color: #1e7e34;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
